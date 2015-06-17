@@ -1,0 +1,47 @@
+#options, #options_2 {
+	float: left;
+	width: 50%;
+	height: 600px;
+	display: table;
+}
+
+#options_2 .text {
+	color: grey;
+}
+
+#mode {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(237, 69, 67)
+}
+
+#mode p {
+	font-size: 20pt;
+	display: inline;
+	vertical-align: 5px;
+	margin-left: 10px;
+}
+
+#map {
+	display: inline-block;
+}
+
+.fields {
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.fields p {
+	color: grey;
+	font-size: 15pt;
+	margin-bottom: 10px;
+}
+
+.field {
+	display: block;
+	width: 350px;
+	height: 30px;
+	margin-bottom: 20px;
+}
